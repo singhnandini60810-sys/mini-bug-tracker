@@ -1,4 +1,3 @@
-# mini-bug-tracker
 # Mini Bug Tracker
 
 A simple web application to track bugs and issues in small projects using browser local storage.
