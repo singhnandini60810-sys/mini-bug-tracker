@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mini Bug Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Mini Bug Tracker</h1>
+
+    <input type="text" id="title" placeholder="Bug Title">
+    <textarea id="desc" placeholder="Bug Description"></textarea>
+
+    <select id="status">
+        <option value="Open">Open</option>
+        <option value="Closed">Closed</option>
+    </select>
+
+    <button onclick="addBug()">Add Bug</button>
+
+    <div id="bugList"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
